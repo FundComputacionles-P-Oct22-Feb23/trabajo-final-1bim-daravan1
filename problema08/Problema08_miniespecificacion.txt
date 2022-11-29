@@ -1,0 +1,23 @@
+1-Inicio
+2-contador, i [0, n] <-- 1
+3-rep, i [0, n] <-- 1
+4-pulgada, d [0, n]
+5-yardas, d [0, n]
+6-pies, d [0, n]
+7-metro, d [0, n]
+8-mensaje, X(50) [{A-Z},{a-z},{BS}]
+9-mensaje <-- "Metros" + "\t\t" + "Yardas" + "\t\t" + "Pulgadas" + "\t" + "Pies" + "\n"
+
+10-Escribir "Escriba la cantidad de metros a convertir:"
+11-Leer metro
+12-Escribir mensaje
+
+13-Mientras contador <= metro entonces
+14-         pulgadas <-- rep * 39.37
+15-         yardas <-- rep * 3.28084
+16-         pies <-- rep * 1.094
+17-         Escribir rep + "\t\t" + pulgadas + "\t" + yardas + "\t\t" + pies + "\n"
+18-         contador <-- contador + 1
+19-         rep <-- rep + 1
+20-FinMientras
+21-Fin

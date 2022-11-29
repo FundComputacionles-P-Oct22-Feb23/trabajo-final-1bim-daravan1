@@ -1,0 +1,11 @@
+1-Inicio
+2-Se crea un contador que tenga el valor de 1.
+3-Se crea una variable llamada numero con valor 1.
+4-Se crea un mensaje llamado cadena.
+5-Mientras el numero sea menor o igual a 100, se iniciara un bucle que
+  sumara a cadena su valor actual mas el contador, un signo de +, el 
+  valor actual del numero y un /.
+6-Dentro del bucle se actualiza el valor de numero sumando a su 
+  valor actual mas el valor del contador
+7-Cuando numeo alcance un valor mayor al 100 el bucle terminara
+8-Se muestra en pantalla la cadena

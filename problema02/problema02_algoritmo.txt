@@ -1,0 +1,20 @@
+1-Inicio
+2-Se pide que se ingrese la cantidad de trajes comprados.
+3-Se pide que se ingrese el precio del traje comprado.
+4-Se calcula el subtotal multiplicando el precio por la cantidad.
+5-Si la cantidad es igual a 1 se calcula el descuento que se hara multiplicando el subtotal por 0.2,
+  despues se calcula el total restandole al subtotal el descuento.
+
+6-Si la cantidad es igual a 2 se calcula el descuento que se hara multiplicando el subtotal por 0.25,
+  despues se calcula el total restandole al subtotal el descuento.
+
+7-Si la cantidad es igual a 3 se calcula el descuento que se hara multiplicando el subtotal por 0.4,
+  despues se calcula el total restandole al subtotal el descuento.
+
+8-En el caso de que la cantidad sea mayor a 3 se calcula el descuento que se hara multiplicando el 
+subtotal por 0.5, despues se calcula el total restandole al subtotal el descuento.
+
+9-Se presenta en pantalla el mensaje del valor del subtotal.
+10-Se presenta en pantalla el mensaje del valor del descuento.
+11-Se presenta en pantalla el mensaje del valor total a pagar.
+12-Fin

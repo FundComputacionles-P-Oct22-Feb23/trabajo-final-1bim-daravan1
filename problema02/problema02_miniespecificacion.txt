@@ -1,0 +1,36 @@
+1-Inicio
+2-cantidad, i [0,n]
+3-precio, d [0, n]
+4-subtotal, d [0, n]
+5-total, d [0, n]
+6-descuento, d [0, n]
+
+7-Escribir "Ingrese la cantidad de trajes comprados: "
+8-Leer cantidad
+9-Escribir "Ingrese la el precio del traje comprado: "
+10-Leer precio
+
+11-subtotal <-- precio * cantidad
+
+12-Si cantidad == 1 entonces
+13-   descuento <-- subtotal * 0.2
+14-   total <-- subtotal - descuento
+15-FinSi
+16-Si cantidad == 2 entonces
+17-   descuento <-- subtotal * 0.25
+18-   total <-- subtotal - descuento
+19-FinSi
+20-Si cantidad == 3 entonces:
+21-   descuento <-- subtotal * 0.4
+22-   total <-- subtotal - descuento
+23-FinSi
+24-Si cantidad > 3 entonces
+25-   descuento <-- subtotal * 0.5
+26-   total <-- subtotal - descuento
+
+27-Escribir "El subtotal de la venta es :" + subtotal 
+28-Escribir "El descuento es: " + descuento
+29-Escribir "El precio total es: " + total
+
+30-Fin
+ 
