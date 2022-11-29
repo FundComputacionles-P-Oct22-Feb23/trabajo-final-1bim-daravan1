@@ -1,0 +1,21 @@
+1-Inicio
+2-suma, d [0, n] <-- 0
+3-contador, d [0, n] <-- 0
+4-bandera, l [True, False]
+5-media, d [0, n]
+6-salida, x(1) [A-Z] <-- ""
+
+7-Mientras bandera = True entonces
+8-	Escribir "Ingrese un numero"
+9-	Leer numero
+10-	suma <-- suma + numero
+11-	contador <-- contador + 1
+12-	Escribir "Si desea no ingresar mas numeros, ingrese 'S':"
+13-	Leer salida
+14-	Si salida == "S" entonces
+15-		bandera <-- False
+16-	FinSi
+17-FinMientras
+18-media <-- suma/contador
+19-Escribir "La media es: " + media
+20-Fin

@@ -1,0 +1,14 @@
+1-Inicio
+2-Se crea una variable llamada suma y una llamada contador, las dos con valor 0
+3-Se crea una bandera con valor True
+3-Mientras la bandera mantenga su valor en True se creara un bucle que
+  le pedira al usuario que ingrese un numero, que el valor de suma sea igual
+  a su valor actual mas el numero y que el valor de contador sea igual al 
+  su valor actual mas 
+4-Tambien en cada iteracion se le preguntara al usuario si desea no ingresar
+  mas numeros, en caso de que quiera parar tendra que ingresar la letra S
+5-Una vez acabado el bucle se calculara la media dividiendo la suma por el
+  valor del contador
+6-Se imprimira en pantalla el mensaje "La media es: " junto con el valor de
+  la media
+7-Fin
