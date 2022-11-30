@@ -1,3 +1,13 @@
+Algoritmo
+
+1.Inicio
+2.Separar los números de las coordenadas
+3.Examinar los numeros negativos
+4.Examinar los numeros positivos
+5.Determinar en que cuadrante se debe ubicar cada uno
+6.Fin
+
+Miniespecificación
 1. Inicio
 2. numero1,d[0-n]
 3. numero2,d[0-n]
