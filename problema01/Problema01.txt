@@ -1,0 +1,56 @@
+Problema 01
+
+Algoritmo
+1.Inicio
+2.Pedir el tamaño de los ángulos del triangulo,
+3.Verificar si tienen un ángulo rectángulo, obtusángulo o acutángulo
+4.Presentar el tipo de ángulo de el triángulo ingresado 
+5.Fin
+
+Miniespecificación
+1. Inicio
+2. angulo1, d[0-n] --> 0
+3. angulo2, d[0-n] --> 0
+4. angulo3, d[0-n] --> 0
+5. tipo, x(100)[{a-z},{A-Z},{BS}]
+6. <<"Ingresar el primer ángulo del triángulo"
+7. >> angulo1
+8. <<"Ingresar el segundo ángulo del triángulo"
+9. >> angulo2
+10.<<"Ingresar el tercer ángulo del triángulo"
+11.>> angulo3
+12.Si angulo1 == 90 entonces 
+13.   tipo --> tipo+"Primer ángulo: Recto"
+14.Caso contrario
+15.  Si angulo1 < 90 entonces 
+16.     tipo --> tipo+"Primer ángulo: Acutángulo"
+17.  Caso contrario 
+18.    Si angulo1 > 90 && angulo < 180 entonces 
+19.       tipo --> tipo+"Primer ángulo: Obtusángulo"
+20.    Fin Si
+21.  Fin Si
+22.Fin Si
+23.Si angulo2 == 90 entonces 
+24.   tipo --> tipo+"Segundo ángulo: Recto"
+25.Caso contrario
+26.  Si angulo2 < 90 entonces 
+27.     tipo --> tipo+"Segundo ángulo: Acutángulo"
+28.  Caso contrario 
+29.    Si angulo2 > 90 && angulo < 180 entonces 
+30.       tipo --> tipo+"Segundo ángulo: Obtusángulo"
+31.    Fin Si
+32.  Fin Si
+33.Fin Si
+34.Si angulo3 == 90 entonces 
+35.   tipo --> tipo+"Tercer ángulo: Recto"
+36.Caso contrario
+37.  Si angulo3 < 90 entonces 
+38.     tipo --> tipo+"Tercer ángulo: Acutángulo"
+39.  Caso contrario 
+40.    Si angulo3 > 90 && angulo < 180 entonces 
+41.       tipo --> tipo+"Tercer ángulo: Obtusángulo"
+42.    Fin Si
+43.  Fin Si
+44.Fin Si
+45.<<tipo
+46.Fin

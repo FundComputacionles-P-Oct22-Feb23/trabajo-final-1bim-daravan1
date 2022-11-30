@@ -27,10 +27,10 @@
 24-Si cantidad > 3 entonces
 25-   descuento <-- subtotal * 0.5
 26-   total <-- subtotal - descuento
+27-FinSi
+28-Escribir "El subtotal de la venta es :" + subtotal 
+29-Escribir "El descuento es: " + descuento
+30-Escribir "El precio total es: " + total
 
-27-Escribir "El subtotal de la venta es :" + subtotal 
-28-Escribir "El descuento es: " + descuento
-29-Escribir "El precio total es: " + total
-
-30-Fin
+31-Fin
  

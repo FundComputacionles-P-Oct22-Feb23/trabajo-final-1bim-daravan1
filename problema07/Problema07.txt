@@ -1,0 +1,17 @@
+Miniespecificación
+1. Inicio
+2. numero,i[0-n]
+3. par,i[0-n] -->2
+4. suma,i[0-n] -->0
+5. << "Ingresar un número par "
+6. >>numero
+7. Si (numero MOD 2 == 0 % && numero > 2) entonces
+8.      Haga_hasta 
+9.        suma --> suma+par
+10.      par --> par + 2
+10.    Fin Haga_hasta (numero == par)
+11.Caso Contrario
+12.  << "Escribir un número mayor a dos o par"
+13.Fin Si
+14.<< "La suma de los numeros es: "+ suma
+15.Fin

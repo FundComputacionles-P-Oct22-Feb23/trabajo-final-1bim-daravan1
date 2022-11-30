@@ -1,0 +1,15 @@
+
+1. Inicio
+2. contador,i+[0-n] --> 0
+3. numero1,i+[0-n] --> 12
+4. numero2,i+[0-n] --> 11
+5. serie,x(500)[{a-z}{A-Z}{BS}], -->""
+6. Mientras que (contador == 1000)
+7.   serie --> serie + numero1 + "-" + numero2 + "+"
+8.   numero1 --> numero1 + 12
+9.   numero2 --> numero2 + 11
+10. contador --> contador + 1
+11.Fin Mientras
+12.>> serie
+13.Fin
+	

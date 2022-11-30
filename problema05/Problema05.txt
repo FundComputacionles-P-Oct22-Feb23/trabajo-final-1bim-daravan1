@@ -1,0 +1,16 @@
+1. Inicio
+2. numero1,d[0-n]
+3. numero2,d[0-n]
+4. Si (numero1>0 && numero2>0) entonces
+5. <<"Es el cuadrante 1"
+6. Fin Si
+7. Si (numero1>0 && numero2<0) entonces
+8. <<"Es el cuadrante 2"
+9. Fin Si
+10.Si (numero1<0 && numero2<0) entonces
+11.<<"Es el cuadrante 3"
+12.Fin Si
+13.Si (numero1<0 && numero2>0) entonces
+14.<<"Es el cuadrante 4"
+15.Fin Si
+16.Fin

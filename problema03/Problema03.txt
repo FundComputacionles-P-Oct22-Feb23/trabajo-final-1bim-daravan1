@@ -1,0 +1,45 @@
+MINIESPECIFICACIÓN
+
+1. Inicio
+2. nombre,x(50)[{a-z},{A-Z},{BS}]
+3. tipoEmpleado,i[0-n]
+4. horasTrabajadas,d[0-n]
+5. horasExtras,d[0-n]-->0
+6. valorHora,d[0-n]
+7. sueldo,d[0-n]-->0
+8. <<" Ingrese el nombre del empleado"
+9. >>nombre
+10.<<" Ingrese el tipo de empleado"
+11.>>tipoEmpleado
+12.<<" Ingrese el número de horas trabajadas por el empleado"
+13.>>horasTrabajadas
+14.<<" Ingrese el valor de la hora del empleado"
+15.>>valorHora
+16.sueldo --> horasTrabajadas * valorHora
+17.Mientras que horasTrabajadas > 40 entonces 
+18.     Si tipoEmpleado == 1 entonces 
+19.     valorHora --> valorHora*1.5
+20.     horasTrabajadas --> horasTrabajadas - 40
+21.     horasExtras --> horasTrabajadas * valorHora
+22.     Fin Si
+23.     Si tipoEmpleado == 2 entonces 
+24.     valorHora --> valorHora*2
+25.     horasTrabajadas --> horasTrabajadas - 40
+26.     horasExtras --> horasTrabajadas * valorHora
+27.     Fin Si
+28.     Si tipoEmpleado == 3 entonces 
+29.     valorHora --> valorHora*2.5
+30.     horasTrabajadas --> horasTrabajadas - 40
+31.     horasExtras --> horasTrabajadas * valorHora
+32.     Fin Si
+33.     Si tipoEmpleado == 4 entonces 
+34.     valorHora --> valorHora*3
+35.     horasTrabajadas --> horasTrabajadas - 40
+36.     horasExtras --> horasTrabajadas * valorHora
+37.     Fin Si
+38.Fin Mientras
+39.sueldo --> sueldo + horasExtras
+40.<<" El sueldo a pagar es:" + sueldo 
+41.Fin
+
+
