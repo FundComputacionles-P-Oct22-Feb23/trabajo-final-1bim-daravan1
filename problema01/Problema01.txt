@@ -25,7 +25,7 @@ Miniespecificación
 15.  Si angulo1 < 90 entonces 
 16.     tipo --> tipo+"Primer ángulo: Acutángulo"
 17.  Caso contrario 
-18.    Si angulo1 > 90 && angulo < 180 entonces 
+18.    Si angulo1 > 90 && angulo1 < 180 entonces 
 19.       tipo --> tipo+"Primer ángulo: Obtusángulo"
 20.    Fin Si
 21.  Fin Si

@@ -1,0 +1,36 @@
+Algoritmo
+1. Inicio
+2. Pedir tres números por teclado
+3. Compararlos entre si para confirmar que no se repitan 
+4. Analizar cual de los números es el mayor
+5. Presentar en pantalla el número mayor
+6. Fin
+
+Miniespecificación
+1.  Inicio
+2.  numero1,i[0-n]
+3.  numero2,i[0-n]
+4.  numero3,i[0-n]
+5.  <<"Ingrese un numero"
+6.  >>numero1 
+7.  <<"Ingrese un numero"
+8.  >>numero2 
+9.  <<"Ingrese un numero");
+10. >>numero3
+11.         Si numero1 == numero2 || numero1 == numero3 || numero3 == numero2
+12         <<"Los numeros ingresados son iguales"
+13.         Caso Contrario
+14.           Si numero1 > numero2 && numero1 > numero3
+15.           <<"El número mayor es: " + numero1
+16.           Caso Contrario
+17.              Si numero2 > numero1 && numero2 > numero3
+18.              <<"El número mayor es: " + numero2
+19.              Caso Contrario
+20.                 Si numero3 > numero2 && numero3 > numero1
+21.                 <<"El número mayor es: " + numero3
+22.                 Fin Si
+23               Fin Si
+24.           Fin Si
+25.       Fin Si
+26.Fin
+        
